@@ -12,8 +12,9 @@
       <div class="logo">GoalWeb</div>
       <ul class="nav-links">
         <li><a href="#about">O nas</a></li>
+        <li><a href="#why">Dlaczego my</a></li>
         <li><a href="#services">Usługi</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#portfolio">Realizacja</a></li>
         <li><a href="#contact">Kontakt</a></li>
       </ul>
     </nav>
@@ -26,34 +27,41 @@
 
   <section id="about" class="section">
     <h2>Kim jesteśmy?</h2>
-    <p>GoalWeb to zespół pasjonatów piłki nożnej i web designu. Tworzymy estetyczne, szybkie i funkcjonalne strony dla klubów, akademii i fanów futbolu.</p>
+    <p>GoalWeb to zespół pasjonatów piłki nożnej i tworzenia stron internetowych. Łączymy sportową pasję z technologią, aby tworzyć unikalne projekty online.</p>
   </section>
 
-  <section id="services" class="section dark">
+  <section id="why" class="section dark">
+    <h2>Dlaczego warto nas wybrać?</h2>
+    <p>Stawiamy na prostotę, szybkość działania i skuteczny przekaz. Nasze strony są dostosowane do wszystkich urządzeń i łatwe w obsłudze dla administratorów klubów.</p>
+  </section>
+
+  <section id="services" class="section">
     <h2>Nasze usługi</h2>
     <ul class="cards">
-      <li class="card">Projektowanie stron piłkarskich</li>
-      <li class="card">Responsywny design</li>
-      <li class="card">Integracja z social media</li>
-      <li class="card">Sklepy online dla klubów</li>
+      <li class="card">Strony dla klubów i lig</li>
+      <li class="card">Responsywny i prosty design</li>
+      <li class="card">Integracja z Facebookiem i Instagramem</li>
+      <li class="card">Sklep online dla klubu</li>
     </ul>
   </section>
 
-  <section id="portfolio" class="section">
-    <h2>Nasze realizacje</h2>
+  <section id="portfolio" class="section dark">
+    <h2>Nasza realizacja</h2>
     <div class="gallery">
-      <div class="thumb">FC Młodzieży</div>
-      <div class="thumb">Liga Amatorska</div>
-      <div class="thumb">Fanpage Piłkarski</div>
+      <div class="thumb">
+        <h3>Bełchatowska Liga Orlikowa</h3>
+        <p>Prosta i funkcjonalna strona dla amatorskiej ligi orlikowej z terminarzem, wynikami i galerią zdjęć.</p>
+        <a class="btn" href="https://przyklad-liga-orlikowa.pl">Zobacz stronę</a>
+      </div>
     </div>
   </section>
 
-  <section id="contact" class="section dark">
+  <section id="contact" class="section">
     <h2>Kontakt</h2>
-    <form class="contact-form">
-      <input type="text" placeholder="Imię i nazwisko" required>
-      <input type="email" placeholder="Adres e-mail" required>
-      <textarea placeholder="Wiadomość" rows="5" required></textarea>
+    <form id="contactForm" class="contact-form">
+      <input type="text" id="name" placeholder="Imię i nazwisko" required>
+      <input type="email" id="email" placeholder="Adres e-mail" required>
+      <textarea id="message" placeholder="Wiadomość" rows="4" required></textarea>
       <button type="submit">Wyślij</button>
     </form>
   </section>
